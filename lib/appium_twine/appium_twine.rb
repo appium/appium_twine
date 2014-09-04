@@ -4,4 +4,4 @@ require 'twine'
 require_relative 'formatter'
 require_relative 'version'
 
-Twine::Formatters.formatters += [Twine::Formatters::Csharp]
+Twine::Formatters.register_formatter Twine::Formatters::Csharp
