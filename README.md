@@ -9,3 +9,5 @@ Example usage
 ```ruby
 twine generate-string-file twine.txt ./ruby_lib/Twine.cs --format csharp --lang en
 ```
+
+Used in the [Appium Xamarin demo app](https://github.com/bootstraponline/xamarin_ruby_lib)
